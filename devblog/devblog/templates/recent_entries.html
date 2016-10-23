@@ -1,0 +1,14 @@
+{% load django_markdown %}
+
+{% block recent_entries %}
+<div id="recents">
+  <h1>Recent Posts</h1>
+  <ul>
+    {% for object in recent_entries %}
+      <li>
+        <h4><a class="recent" href="{% url 'entry_detail' slug=object.slug %}">{{ object.title }}</a></h4>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

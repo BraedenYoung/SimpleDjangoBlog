@@ -1,0 +1,37 @@
+
+
+ul {
+  list-style: none;
+}
+
+ a:link {
+     text-decoration: none;
+ }
+
+ a:visited {
+     text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: none;
+ }
+
+ a:active {
+     text-decoration: none;
+ }
+
+
+#recents {
+
+}
+
+
+#side-bar {
+  padding-left:6%;
+  padding-bottom: 5%;
+  /*border-style: solid;
+  border-right: thick double #ffff00;*/
+  height: 100%;
+  margin-left: 3%;
+  margin-top: 5%;
+}
